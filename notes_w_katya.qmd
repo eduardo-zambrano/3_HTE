@@ -1,0 +1,10 @@
+---
+title: "Untitled"
+format: pdf
+---
+
+# the comment from the reviewer for JDE
+I would like to see much more done to investigate the distributions of outcome variables. The ATEs are big but noisy. The paper jumps immediately from noisy ATEs to Bayesian analysis based on outcome distributions being skewed. More can be done to help us understand what is really going on with the noisy ATEs. First, looking at quantile regressions and distribution regressions is quite informative when the ATEs are skewed due to few observations. It is possible that the noisy ATE is being driven by effects that are concentrated on a small number of farmers. Investigating heterogeneity using some of the newer ML methods could shed light on this. I think we can learn more with this type of investigation then we can from jumping immediately from the traditional estimation to the Bayesian hierarchical model. One of the main insights of the paper should be shedding light on what really drives such noisy estimates with a pretty large ag RCT, not that a Bayesian model produces different results.
+
+# Pending issues
+

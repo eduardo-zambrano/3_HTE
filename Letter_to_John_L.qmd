@@ -1,0 +1,37 @@
+---
+title: "Letter to John"
+format: pdf
+---
+
+Subject: your post on priors
+
+https://www.linkedin.com/posts/johnalist_how-can-we-make-experimental-research-results-activity-7173682763768774657-IhH4/?utm_source=share&utm_medium=member_desktop
+
+
+Dear John, 
+
+I wanted to write with regards to your post on informative priors on twitter:
+https://www.linkedin.com/posts/johnalist_how-can-we-make-experimental-research-results-activity-7173682763768774657-IhH4/?utm_source=share&utm_medium=member_desktop
+
+You might know me a bit – I was Ken Leonard’s student and we now write together.  I remembered that you had attended my talk on income targeting experiment at LACEA/LAMES in Bogotá, and you recently accepted our gender paper w. Ken and Jeff Flory in your JEBO special issue (https://www.sciencedirect.com/science/article/pii/S0167268123003773). In particular, you encouraged us to apply your work on informed priors to our gender paper and it made it a much stronger paper. Thank you for that. 
+
+I wanted to write about what I think is another part of the story of power, which gets less attention, which is considering the underlying DGP. We had a paper (now, published https://www.sciencedirect.com/science/article/pii/S0304387824000166?via%3Dihub), which was doomed for the closet of null effects. 
+
+But we looked at the underlying distributions of the data – fat tails, not conducive to taking averages. We tried a few different analyses – Bayesian hierarchal, weighted average quantiles (WAQ, Athey 2023), and vanilla quantiles and they told a different story from what average treatment effects were telling us, which by definition doesn’t accommodate fat tails.
+
+I think what was really telling about the process of that paper and the reviews that we received back was the reasoning what could generate large ATEs with large variances - heterogenous treatment effects could lead to be being unpowered. 
+
+Actually, you don’t need treatment effects to be heterogenous to generate large variances. That can be one cause, but isn’t necessary. Long tails that are imprecisely measured can also generate imprecisely measured averages, and the long tails (particularly if you can’t anticipate them) can make standard power requirements infeasible. Long tailed data are somewhat common with agricultural data, and I learned, with financial economic data too. 
+
+In the paper I ran some simulations that show that the sample sizes we would have needed to power the study were infeasible, in some cases potentially larger than the actual population being studied and just too expensive, but that didn’t mean there weren’t meaningful effects along the distribution. 
+
+The nice ending to the paper is that the Bayesian and WAQ estimators largely told the same story - that there were non zero effects in the lower tails, but the upper tails were running things amuck. 
+
+Anyways, I thought I’d go out on a limb and share the paper since you are leading the way on forcing us all to think harder about null results, and, well, not to banish them to the closet of null results. 
+
+
+# the comment from the reviewer for JDE
+I would like to see much more done to investigate the distributions of outcome variables. The ATEs are big but noisy. The paper jumps immediately from noisy ATEs to Bayesian analysis based on outcome distributions being skewed. More can be done to help us understand what is really going on with the noisy ATEs. First, looking at quantile regressions and distribution regressions is quite informative when the ATEs are skewed due to few observations. It is possible that the noisy ATE is being driven by effects that are concentrated on a small number of farmers. Investigating heterogeneity using some of the newer ML methods could shed light on this. I think we can learn more with this type of investigation then we can from jumping immediately from the traditional estimation to the Bayesian hierarchical model. One of the main insights of the paper should be shedding light on what really drives such noisy estimates with a pretty large ag RCT, not that a Bayesian model produces different results.
+
+# Pending issues
+
